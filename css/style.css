@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 body{
@@ -87,10 +90,25 @@ main{
 
 #mainphoto{
     position: relative;
+    margin-left: 125px;
     top: -1rem;
     width: 36vh;
     border-radius: 50%;
     box-shadow: 0 0 25px solid #b74b4b;
+}
+
+#space{
+    position: relative;
+    margin-left: 125px;
+}
+
+#picture-1{
+    margin-top: 25px;
+}
+
+#picture-2{
+    margin-top: -300px;
+    margin-left: 300px;
 }
 
 /* colory fun */

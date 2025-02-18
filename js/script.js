@@ -1,6 +1,6 @@
 const pictures= [
+        "../images/discord_profile.png",
         "../images/contact.png",
-        "../images/contacten.png",
 ];
 
 function loadImages() {
