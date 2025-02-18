@@ -38,12 +38,12 @@ header{
 nav a{
     padding: 1rem 4%;
     font-size: 2.5rem;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+    transition: color 0.3s ease;
 }
 nav a:hover,
 nav a#active{
     color: purple;
-    border-bottom: 3px solid purple;
+
 }
 
 #main-nav{
@@ -85,7 +85,15 @@ main{
     color: white;
 }
 
-/* Test */
+#mainphoto{
+    position: relative;
+    top: -1rem;
+    width: 36vh;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #b74b4b;
+}
+
+/* colory fun */
 
 span{
     color: #b74b4b;

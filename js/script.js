@@ -1,5 +1,4 @@
 const pictures= [
-        "../images/mainphoto.jpg",
         "../images/contact.png",
         "../images/contacten.png",
 ];
@@ -7,9 +6,9 @@ const pictures= [
 function loadImages() {
     for (let index = 0; index < pictures.length; index++) {
             let img = document.createElement("img");
-            img.src = pictures[img];
+            img.src = pictures[index];
 
-            document.getElementById(`picture-${item}`).appendChild(img);
+            document.getElementById(`picture-${index + 1}`).appendChild(img);
         }
     }
 
