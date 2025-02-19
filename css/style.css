@@ -85,12 +85,12 @@ nav a#active{
 }
 
 main{
-    color: white;
+    color: wheat;
 }
 
 #mainphoto{
     position: relative;
-    margin-left: 125px;
+    margin-left: 175px;
     top: -1rem;
     width: 36vh;
     border-radius: 50%;
@@ -99,7 +99,7 @@ main{
 
 #space{
     position: relative;
-    margin-left: 125px;
+    margin-left: 175px;
 }
 
 #picture-1{
@@ -133,4 +133,28 @@ span{
 
 #typing-text span::after{
     content: "";
+}
+
+#section{
+    margin-left: auto;
+    margin-right: 390px;
+    margin-top: -820px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: blueviolet;
+}
+
+th{
+    font-size: 1.5rem;
+}
+
+.hidden{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hidden.show{
+    opacity: 1;
 }

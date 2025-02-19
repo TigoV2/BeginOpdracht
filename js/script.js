@@ -1,3 +1,4 @@
+// Load images
 const pictures= [
         "../images/discord_profile.png",
         "../images/github_profile.png",
@@ -14,3 +15,13 @@ function loadImages() {
 
 window.onload = loadImages;
 
+// Hide and show Table
+const tableHidden = document.getElementById("section");
+
+tableHidden.addEventListener("mouseover", function(){
+  tableHidden.classList.add("show");
+});
+
+tableHidden.addEventListener("mouseout", function(){
+  tableHidden.classList.remove("show");
+});
