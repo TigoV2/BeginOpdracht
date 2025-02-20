@@ -1,6 +1,6 @@
 // Load images
 const pictures= [
-        "BeginOpdracht/images/discord.png",
+        "../images/discord.png",
         "../images/github.png",
 ];
 
