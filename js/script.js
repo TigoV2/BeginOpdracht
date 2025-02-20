@@ -1,7 +1,7 @@
 // Load images
 const pictures= [
-        "../images/",
-        "../images/",
+        "../images/discord.png",
+        "../images/github.png",
 ];
 
 function loadImages() {
