@@ -217,3 +217,16 @@ code{
     margin-top: 25px;
     margin-left: 125px;
 }
+
+#interesse-content{
+    margin-top: 25px;
+    margin-left: 125px;
+}
+
+.pictures{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 20px;
+}
