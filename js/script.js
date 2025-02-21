@@ -1,5 +1,5 @@
 // Load images
-const pictures= [
+const pictures = [
         "../images/discord.png",
         "../images/github.png"
 ];
