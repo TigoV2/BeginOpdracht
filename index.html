@@ -7,6 +7,18 @@
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
 
+    <script defer>
+        const tableHidden = document.getElementById("section");
+
+        tableHidden.addEventListener("mouseover", function(){
+          tableHidden.classList.add("show");
+        });
+        
+        tableHidden.addEventListener("mouseout", function(){
+          tableHidden.classList.remove("show");
+        });
+    </script>
+
     <title>Home-Page</title>
 </head>
 <body>
