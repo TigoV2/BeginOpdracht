@@ -1,4 +1,3 @@
-// Hide and show Table
 const tableHidden = document.getElementById("section");
 
 tableHidden.addEventListener("mouseover", function(){
